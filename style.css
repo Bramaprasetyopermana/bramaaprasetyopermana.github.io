@@ -1,0 +1,117 @@
+*{
+  padding:0;
+margin: auto;}
+body {
+  margin:auto;
+  background:#f7f7f7 no-repeat fixed top center;
+  }
+
+
+.header{
+  width:100%;
+  height: 60px;
+  background-color:#f9f3cc;
+  text-align:center;
+  border:5px solid;
+  border-color:white;
+}
+form{
+  float:right;
+  margin: top;
+  padding: 15px;
+}
+.search{
+  border-radius: 20px;
+  margin:auto;
+  text-align: left;
+  height: 25px;
+  border:2px solid;
+  border-color: white;
+}
+.button{
+  width:60px;
+  height: 25px;
+  border-radius: 20px;
+  color:black;
+  background-color: #f9f3cc;
+}
+
+.menu{
+  width:100%;
+  height: 60px;
+  border:5px solid;
+  border-top-width:0px;
+  border-color:white;
+}
+ul{
+  width:100%;
+  height:60px;
+  background-color:#26251f;
+}
+li{
+  line-height: 25px;
+  color:white;
+  float:left;
+  font-size: 20px;
+  margin:10px;
+  padding:5px;
+  list-style: none;
+}
+ul li:hover{
+  opacity: 0.9;
+}
+.wrapper{
+  width:70%;}
+
+.content{
+  width:100%;
+  height:755%;
+  text-align:center;
+  padding-bottom: 60px;
+
+}
+h1{
+  font-size: 65px;
+  font-family:constantia;
+  line-height: 1em;}
+h2{
+  line-height: 1em;
+  font-size: 58px;
+  font-family: constantia;
+  text-align: left;}
+h3{
+  font-size: 30px;
+  line-height: 4em;
+  text-align: left;
+  font-family: constantia;
+}
+p{
+  font-size:20px;
+  line-height: 30px;
+  text-align: justify;
+  font-family: Georgia;}
+figcaption{
+  width:700px;
+  height: 30px;
+  background-color:#f2c4cf;
+  line-height: 2em;
+  font-family: Georgia;
+}
+.footer{
+  width:100%;
+  height: 80px;
+
+}
+.container{
+  width:100%;
+  height: 80px;
+}
+
+.container .icon{
+  display: inline-block;
+  font-size: 45px;
+  padding:5px;
+}
+.container .icon .fa:hover{
+  opacity:0.6;
+}
